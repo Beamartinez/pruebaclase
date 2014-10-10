@@ -49,6 +49,13 @@ public class Picture
         roof.moveVertical(-60);
         roof.makeVisible();
         
+        sun = new Circle();
+        sun.changeColor("blue");
+        sun.moveHorizontal(100);
+        sun.moveVertical(-60);
+        sun.changeSize(80);
+        sun.makeVisible();
+        
         suelo = new Circle();
         suelo.changeColor("green");
         suelo.changeSize(1500);
@@ -56,12 +63,6 @@ public class Picture
         suelo.moveHorizontal(-700);
         suelo.makeVisible();
         
-        sun = new Circle();
-        sun.changeColor("blue");
-        sun.moveHorizontal(100);
-        sun.moveVertical(-40);
-        sun.changeSize(80);
-        sun.makeVisible();
         sun.slowMoveVertical(40);
     }
 
