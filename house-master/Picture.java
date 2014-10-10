@@ -63,7 +63,14 @@ public class Picture
         suelo.moveHorizontal(-700);
         suelo.makeVisible();
         
-        sun.slowMoveVertical(40);
+    }
+    
+    /**
+     * the sun is moving
+     */
+    public void moveSun()
+    {
+    sun.slowMoveVertical(60);  
     }
 
     /**
